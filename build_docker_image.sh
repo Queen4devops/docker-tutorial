@@ -10,7 +10,7 @@ sudo systemctl enable docker
 sudo usermod -a -G docker ec2-user
 docker info
 
-# create a dockerfile
+# create a dockerfile, copy and paste Dockerfile.txt here
 sudo vi Dockerfile 
 
 # build the docker image
